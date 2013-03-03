@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Isaac Bythewood</title><link href="http://isaacbythewood.com/" rel="alternate"></link><link href="http://isaacbythewood.com/feeds/all.atom.xml" rel="self"></link><id>http://isaacbythewood.com/</id><updated>2012-06-14T00:00:00+02:00</updated><entry><title>Getting Started With Pelican On GitHub</title><link href="http://isaacbythewood.com/2012/06/14/getting-started-with-pelican-on-github/" rel="alternate"></link><updated>2012-06-14T00:00:00+02:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-06-14:2012/06/14/getting-started-with-pelican-on-github/</id><summary type="html">&lt;p&gt;Pelican is a static site generator built on Python, here's a simple how-to on
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Isaac Bythewood</title><link href="http://isaacbythewood.com/" rel="alternate"></link><link href="http://isaacbythewood.com/feeds/How-to.atom.xml" rel="self"></link><id>http://isaacbythewood.com/</id><updated>2012-06-14T00:00:00+02:00</updated><entry><title>Getting Started With Pelican On GitHub</title><link href="http://isaacbythewood.com/2012/06/14/getting-started-with-pelican-on-github/" rel="alternate"></link><updated>2012-06-14T00:00:00+02:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-06-14:2012/06/14/getting-started-with-pelican-on-github/</id><summary type="html">&lt;p&gt;Pelican is a static site generator built on Python, here's a simple how-to on
 getting your website started with a custom theme and free hosting on GitHub
 Pages.&lt;/p&gt;
 &lt;h2&gt;What You'll Need&lt;/h2&gt;
@@ -92,7 +92,4 @@ servers.&lt;/p&gt;
 supports many different markups the other official one the documentation
 describes is reStructuredText. To use a different markup simply put the type's
 extension on your content post. ex. &lt;code&gt;content/2012-06-14-fancy-post.rst&lt;/code&gt; for
-reStructuredText.&lt;/p&gt;</summary></entry><entry><title>Pinry, a self-hosted Pinterest.</title><link href="http://isaacbythewood.com/2012/04/25/pinry-a-self-hosted-pinterest/" rel="alternate"></link><updated>2012-04-25T00:00:00+02:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-04-25:2012/04/25/pinry-a-self-hosted-pinterest/</id><summary type="html">&lt;p&gt;Deployable on any platform Pinry provides a great "private" Pinterest for you to
-quickly pin stuff you love online. As usual you can find my code on
-&lt;a href="https://github.com/overshard/pinry"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Pinry's home page" src="http://isaacbythewood.com/static/images/2012-04-25-pinry-a-self-hosted-pinterest/pinry.jpg" /&gt;&lt;/p&gt;</summary></entry></feed>
+reStructuredText.&lt;/p&gt;</summary></entry></feed>
