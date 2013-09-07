@@ -17,14 +17,14 @@
         <meta name="author" content="Isaac Bythewood"/>
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster|Vollkorn:400italic,400"/>
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.min.css"/>
-        <link rel="stylesheet" href="../../../../theme/css/codehilite.css"/>
-        <link rel="stylesheet" href="../../../../theme/css/base.css"/>
+        <link rel="stylesheet" href="http://isaacbythewood.com/theme/css/codehilite.css"/>
+        <link rel="stylesheet" href="http://isaacbythewood.com/theme/css/base.css"/>
     </head>
 
     <body>
         <div id="wrapper">
         <div id="header">
-            <a href="../../../..">
+            <a href="http://isaacbythewood.com">
                 <div id="name">Isaac Bythewood</div>
                 <div id="description">I am a software engineer located in Morganton, NC</div>
             </a>
@@ -35,7 +35,7 @@
     </div>
     <div class="content">
         <h1>Getting started with Pelican on GitHub.</h1>
-        <h2 class="date">14 Jun 2012 - How-to</h2>
+        <h2 class="date">14 Giu 2012 - How-to</h2>
         <p>Pelican is a static site generator built on Python, here's a simple how-to on
 getting your website started with a custom theme and free hosting on GitHub
 Pages.</p>
@@ -54,7 +54,7 @@ Google if you don't already have them.</p>
 <p>Pelican has an okay quickstart with it's <code>pelican-quickstart</code> command but this
 doesn't provide many essential settings or setup a custom theme. The best way to
 quickstart is to pull my repo:</p>
-<div class="codehilite"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="err">@</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">:</span><span class="n">overshard</span><span class="o">/</span><span class="n">isaacbythewood</span><span class="p">.</span><span class="n">com</span><span class="p">.</span><span class="n">git</span>
+<div class="highlight"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="err">@</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">:</span><span class="n">overshard</span><span class="o">/</span><span class="n">isaacbythewood</span><span class="p">.</span><span class="n">com</span><span class="p">.</span><span class="n">git</span>
 </pre></div>
 
 
@@ -63,7 +63,7 @@ can view and modify in the <code>pelicanconf.py</code> and <code>publishconf.py<
 are some settings you'll need to change like <code>AUTHOR</code>, <code>SITEURL</code>, and
 <code>SITENAME</code>. Peruse my settings and change as needed.</p>
 <p>You'll then want to setup your <code>virtualenv</code>:</p>
-<div class="codehilite"><pre><span class="err">$</span> <span class="n">virtualenv</span> <span class="p">.</span>
+<div class="highlight"><pre><span class="err">$</span> <span class="n">virtualenv</span> <span class="p">.</span>
 <span class="err">$</span> <span class="n">source</span> <span class="n">bin</span><span class="o">/</span><span class="n">activate</span>
 <span class="err">$</span> <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="p">.</span><span class="n">txt</span>
 </pre></div>
@@ -88,7 +88,7 @@ for posts go in <code>content/images</code> extras such as <code>favicon.ico</co
 delete it entirely or change it to your own domain name.</p>
 <p><strong>Note:</strong> Be sure that if you remove or add extras edit <code>pelicanconf.py</code> to
 reflect the files removed/added:</p>
-<div class="codehilite"><pre><span class="n">FILES_TO_COPY</span> <span class="o">=</span> <span class="p">(</span>
+<div class="highlight"><pre><span class="n">FILES_TO_COPY</span> <span class="o">=</span> <span class="p">(</span>
     <span class="p">(</span><span class="s">&#39;extra/favicon.ico&#39;</span><span class="p">,</span> <span class="s">&#39;favicon.ico&#39;</span><span class="p">),</span>
     <span class="p">(</span><span class="s">&#39;extra/robots.txt&#39;</span><span class="p">,</span> <span class="s">&#39;robots.txt&#39;</span><span class="p">),</span>
 <span class="p">)</span>
@@ -114,7 +114,7 @@ want to delete my origin <code>git remote rm origin</code> and add yours which G
 tell you how to do after you create your new repository. From there <code>git push</code>
 your code to your new repo but this doesn't make your site live. You'll need to
 run the following every time you want to publish new changes to GitHub pages:</p>
-<div class="codehilite"><pre><span class="err">$</span> <span class="n">make</span> <span class="n">publish</span>
+<div class="highlight"><pre><span class="err">$</span> <span class="n">make</span> <span class="n">publish</span>
 <span class="err">$</span> <span class="n">make</span> <span class="n">github</span>
 </pre></div>
 
